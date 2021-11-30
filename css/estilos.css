@@ -1,0 +1,138 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color:#f2f2f2;
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvética, sans-serif;
+}
+a{
+    background-color: none;
+    color: #fff;
+}
+
+h2{
+	color: #000;
+	font-family: 'Times New Roman', serif;
+}
+h3{
+    color: #454C59;
+    margin-bottom: 3px;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+}
+h4{
+    color: #454C59;
+    margin-bottom: 3px;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+}
+h5{
+    color: #454C59;
+    margin-bottom: 3px;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+}
+
+img{
+	max-width: 100%;
+	margin: 10px auto;
+	display: block;
+}
+p{
+    text-align: justify;
+    color: #454C59;
+}
+a{
+    text-decoration: none;
+    color: 476B69;
+}
+#area_menu{
+    display: block;
+}
+
+#area_cabecalho{
+	background-position:center;
+	background-image: url(../imgs/praia_banner.png);
+	background-repeat: no-repeat;
+	padding: 15px;
+	text-align: center;
+	height: 300px;
+}
+#area_logo, #area_menu{
+	padding: 10px;
+}
+#cor_logo{
+	color: #476B69;
+}
+#area_cabecalho a:link, #area_cabecalho a:visited{
+	color: #ffffff;
+	padding: 8px 12px;
+}
+#area_cabecalho a:hover{
+	color: #D0C494;
+	text-decoration: underline;
+	background-color: ffffff;
+}
+#area_principal{
+	width: 80%;/* definindo a largura padrao*/
+	margin: 0px auto;
+	padding: 15px;
+}
+#area_postagens, #area_lateral{
+	margin-top: -100px;
+}
+#area_postagens{
+	width: 70%;
+	float: right;
+}
+#area_lateral{
+	width: 20%;
+	padding: 3px;
+	float: left;
+	background-color: #FBDCC7;
+}
+#area_rodape{
+	background-color: #f2f2f2;
+	color: 7FA99D;
+	clear: both;
+	text-align: center;
+	padding: 15px;}
+#menu_lateral{
+	color: 454c59;
+	font-weight: bold;
+	padding: 2px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+#menu_lateral a:hover{
+    display: block;
+    background-color: #FBDCC7;
+    color: f2e0d0;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color : #D2D7D1; 
+}
+.data_postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #d99e6a;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	display: block;
+}
+.postagem-lateral{
+    font-size: 0.9em;
+    padding: 5px;
+    border-bottom: 2px dotted #FBDCC7;
+}
+.conteudo_lateral{
+    background: #FBDCC7;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
